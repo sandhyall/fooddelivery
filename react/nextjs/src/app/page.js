@@ -5,6 +5,7 @@ import Home from './Home/page'
 
 
 const Fooddalivary=()=> {
+  
   return (
     <div>
       <Header/>
