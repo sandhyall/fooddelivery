@@ -1,15 +1,22 @@
-import React from 'react'
-import Hero from '../Component/Hero/page'
-import Exploremenu from '../Component/Explormenu/page'
+'use client';
+import React, { useState } from 'react';
+import Hero from '../Component/Hero/page';
+import Exploremenu from '../Component/Explormenu/page';
+import StoreContextProvider from '../Component/Context/page';  // Wrap the provider here
+import FoodDisplay from '../Component/FoodDisplay/page';
 
-const Home =()=> {
-  
+const Home = () => {
+  const [category, setCategory] = useState("All");
+
   return (
-    <div>
-        <Hero/>
-        <Exploremenu/>
-        </div>
-  )
-}
+    <StoreContextProvider>
+      <div>
+        <Hero />
+        <Exploremenu category={category} setCategory={setCategory} />
+        <FoodDisplay /> 
+      </div>
+    </StoreContextProvider>
+  );
+};
 
-export default Home
+export default Home;

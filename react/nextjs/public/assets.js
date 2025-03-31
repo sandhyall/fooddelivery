@@ -382,3 +382,236 @@ export const menu_list = [
         menu_image: "/images/menu/menu_8.png"
 },
 ]
+
+export const food_list = [
+        {
+            _id: "1",
+            name: "Greek salad",
+            food_image:"/images/food/food_1.png" ,
+            price: 12,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Salad"
+        },
+        {
+            _id: "2",
+            name: "Veg salad",
+            food_image:"/images/food/food_2.png" ,
+            price: 18,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Salad"
+        }, {
+            _id: "3",
+            name: "Clover Salad",
+            food_image:"/images/food/food_3.png" ,
+            price: 16,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Salad"
+        }, {
+            _id: "4",
+            name: "Chicken Salad",
+            food_image:"/images/food/food_4.png" ,
+            price: 24,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Salad"
+        }, {
+            _id: "5",
+            name: "Lasagna Rolls",
+            food_image:"/images/food/food_5.png" ,
+            price: 14,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Rolls"
+        }, {
+            _id: "6",
+            name: "Peri Peri Rolls",
+            food_image:"/images/food/food_6.png" ,
+            price: 12,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Rolls"
+        }, {
+            _id: "7",
+            name: "Chicken Rolls",
+            food_image:"/images/food/food_7.png" ,
+            price: 20,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Rolls"
+        }, {
+            _id: "8",
+            name: "Veg Rolls",
+            food_image:"/images/food/food_8.png" ,
+            price: 15,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Rolls"
+        }, {
+            _id: "9",
+            name: "Ripple Ice Cream",
+            food_image:"/images/food/food_9.png" ,
+            price: 14,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Deserts"
+        }, {
+            _id: "10",
+            name: "Fruit Ice Cream",
+            food_image:"/images/food/food_10.png" ,
+            price: 22,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Deserts"
+        }, {
+            _id: "11",
+            name: "Jar Ice Cream",
+            food_image:"/images/food/food_11.png" ,
+            price: 10,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Deserts"
+        }, {
+            _id: "12",
+            name: "Vanilla Ice Cream",
+            food_image:"/images/food/food_12.png" ,
+            price: 12,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Deserts"
+        },
+        {
+            _id: "13",
+            name: "Chicken Sandwich",
+            food_image:"/images/food/food_13.png" ,
+            price: 12,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Sandwich"
+        },
+        {
+            _id: "14",
+            name: "Vegan Sandwich",
+            food_image:"/images/food/food_14.png" ,
+            price: 18,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Sandwich"
+        }, {
+            _id: "15",
+            name: "Grilled Sandwich",
+            food_image:"/images/food/food_15.png" ,
+            price: 16,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Sandwich"
+        }, {
+            _id: "16",
+            name: "Bread Sandwich",
+            food_image:"/images/food/food_16.png" ,
+            price: 24,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Sandwich"
+        }, {
+            _id: "17",
+            name: "Cup Cake",
+            food_image:"/images/food/food_17.png" ,
+            price: 14,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Cake"
+        }, {
+            _id: "18",
+            name: "Vegan Cake",
+            food_image:"/images/food/food_18.png" ,
+            price: 12,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Cake"
+        }, {
+            _id: "19",
+            name: "Butterscotch Cake",
+            food_image:"/images/food/food_19.png" ,
+            price: 20,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Cake"
+        }, {
+            _id: "20",
+            name: "Sliced Cake",
+            food_image:"/images/food/food_20.png" ,
+            price: 15,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Cake"
+        }, {
+            _id: "21",
+            name: "Garlic Mushroom ",
+            food_image:"/images/food/food_21.png" ,
+            price: 14,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Pure Veg"
+        }, {
+            _id: "22",
+            name: "Fried Cauliflower",
+            food_image:"/images/food/food_22.png" ,
+            price: 22,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Pure Veg"
+        }, {
+            _id: "23",
+            name: "Mix Veg Pulao",
+            food_image:"/images/food/food_23.png" ,
+            price: 10,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Pure Veg"
+        }, {
+            _id: "24",
+            name: "Rice Zucchini",
+            food_image:"/images/food/food_24.png" ,
+            price: 12,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Pure Veg"
+        },
+        {
+            _id: "25",
+            name: "Cheese Pasta",
+            food_image:"/images/food/food_25.png" ,
+            price: 12,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Pasta"
+        },
+        {
+            _id: "26",
+            name: "Tomato Pasta",
+            food_image:"/images/food/food_26.png" ,
+            price: 18,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Pasta"
+        }, {
+            _id: "27",
+            name: "Creamy Pasta",
+            food_image:"/images/food/food_27.png" ,
+            price: 16,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Pasta"
+        }, {
+            _id: "28",
+            name: "Chicken Pasta",
+            food_image:"/images/food/food_28.png" ,
+            price: 24,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Pasta"
+        }, {
+            _id: "29",
+            name: "Buttter Noodles",
+            food_image:"/images/food/food_29.png" ,
+            price: 14,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Noodles"
+        }, {
+            _id: "30",
+            name: "Veg Noodles",
+            food_image:"/images/food/food_30.png" ,
+            price: 12,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Noodles"
+        }, {
+            _id: "31",
+            name: "Somen Noodles",
+            food_image:"/images/food/food_31.png" ,
+            price: 20,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Noodles"
+        }, {
+            _id: "32",
+            name: "Cooked Noodles",
+            food_image:"/images/food/food_32.png" ,
+            price: 15,
+            description: "Food provides essential nutrients for overall health and well-being",
+            category: "Noodles"
+        }
+    ]
