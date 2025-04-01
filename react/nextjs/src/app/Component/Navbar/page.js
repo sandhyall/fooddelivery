@@ -7,7 +7,7 @@ const Navbar = () => {
   const [activeLink, setActiveLink] = useState('Home'); // Set initial active link to Home
 
   return (
-    <div className="flex items-center justify-end p-3 bg-gray-800">
+    <div className="flex items-center justify-end p-4 bg-gray-800">
       {/* Logo */}
       <img src="./logo.png" alt="Logo" className="h-8 w-auto mr-4" />
 
@@ -19,7 +19,7 @@ const Navbar = () => {
             <Link
               onClick={() => setActiveLink('Home')}
               className={`text-white hover:text-gray-300 ${activeLink === 'Home' ? 'underline font-bold' : ''}`}
-              href="#"
+              href="/Home"
             >
               Home
             </Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
             <Link
               onClick={() => setActiveLink('Menu')}
               className={`text-white hover:text-gray-300 ${activeLink === 'Menu' ? 'underline font-bold' : ''}`}
-              href="#"
+              href="/Menu"
             >
               Menu
             </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
             <Link
               onClick={() => setActiveLink('Mobileapp')}
               className={`text-white hover:text-gray-300 ${activeLink === 'Mobileapp' ? 'underline font-bold' : ''}`}
-              href="#"
+              href="/Appdowload"
             >
               Mobileapp
             </Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
             <Link
               onClick={() => setActiveLink('ContactUs')}
               className={`text-white hover:text-gray-300 ${activeLink === 'ContactUs' ? 'underline font-bold' : ''}`}
-              href="#"
+              href="/Footer"
             >
               Contact Us
             </Link>
