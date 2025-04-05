@@ -8,6 +8,7 @@ import FoodDisplay from '../Component/FoodDisplay/page';
 import AppDownload from '../Component/Appdowload/page';
 import Footer from '../Component/Footer/page';
 import Header from '../Component/Header/page';
+import Cart from '../Cart/page';
 
 const Home = () => {
   const [category, setCategory] = useState("All");
@@ -15,13 +16,13 @@ const Home = () => {
   return (
     <StoreContextProvider>
       <div>
-        <Header/>
-        <Navbar/>
+        
         <Hero />
         <Exploremenu category={category} setCategory={setCategory} />
         <FoodDisplay category={category} /> 
         <AppDownload/>
         <Footer/>
+        {/* <Cart/> */}
       </div>
     </StoreContextProvider>
    
