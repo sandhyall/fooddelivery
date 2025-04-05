@@ -1,11 +1,19 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import Home from './Home/page'
+import Navbar from './Component/Navbar/page'
+import Header from './Component/Header/page'
+import Login from './Loginpop/page'
 const Fooddalivary=()=> {
-  
+  const[showlogin,setshowlogin]=useState(false)
+ 
   return (
-    <div>
-      {/* <Header/> */}
 
+    
+    <div>
+      {showlogin?<Login setshowlogin={setshowlogin}/>:<></>}
+     <Header setshowlogin={setshowlogin}/>
+       <Navbar/>
          <Home/>
         
          
